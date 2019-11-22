@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>The Noble Quran - Mushaf</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    
+  <div class="controls">
+
+  </div>
+  
+      <div class="next"></div>
+      <div class="previous"></div>
+      
+          <div class="go">
+                  <form>
+                      <button class="button" style="vertical-align:middle"><b>Go:</b></button>
+                  <input type="text" maxlength="3" size="3" min="1" max="604" id="someid">
+              </form>
+          </div>
+      
+  
+  <div class="twopage">
+    <img id="l" src="../../../masahif/hafs/4.svg">
+    <img id="r" src="../../../masahif/hafs/3.svg">
+  </div>
+  
+  <div class="twopage2">
+    <img id="2l" src="../../../masahif/hafs/border.svg">
+    <img id="2r" src="../../../masahif/hafs/borderr.svg">
+  </div>
+  
+    
+  <div class="navi">
+      
+            <nav>
+            <ul>
+                <li>
+                    <a id="faatiha"><span>1</span>Surah Al-Faatiha</a>
+                </li>
+                <li>
+                    <a id="baqara"><span>2</span>Surah Al-Baqara</a>
+                </li>
+                <li>
+                    <a id="imraan"><span>3</span>Surah Ali 'Imraan</a>
+                </li>
+                <li>
+                    <a id="nisaa"><span>4</span>Surah An-Nisaa'</a>
+                </li>
+                <li>
+                    <a id="maaida"><span>5</span>Surah Al-Maa'ida</a>
+                </li>
+                <li>
+                    <a id="anaam"><span>6</span>Surah Al-An'aam</a>
+                </li>
+                <li>
+                    <a id="araaf"><span>7</span>Surah Al-A'raaf</a>
+                </li>
+                <li>
+                    <a id="anfaal"><span>8</span>Surah Al-Anfaal</a>
+                </li>
+                <li>
+                    <a id="tawba"><span>9</span>Surah At-Tawba</a>
+                </li>
+                <li>
+                    <a id="yoonus"><span>10</span>Surah Yoonus</a>
+                </li>
+                <li>
+                    <a id="hood"><span>11</span>Surah Hood</a>
+                </li>
+                <li>
+                    <a id="yoosuf"><span>12</span>Surah Yoosuf</a>
+                </li>
+                <li>
+                    <a id="rad"><span>13</span>Surah Ar-Ra'd</a>
+                </li>
+                <li>
+                    <a id="ibraaheem"><span>14</span>Surah Ibraaheem</a>
+                </li>
+                <li>
+                    <a id="hijr"><span>15</span>Surah Al-Hijr</a>
+                </li>
+                <li>
+                    <a id="nahl"><span>16</span>Surah An-Nahl</a>
+                </li>
+                <li>
+                    <a id="israa"><span>17</span>Surah Al-Israa'</a>
+                </li>
+                <li>
+                    <a id="kahf"><span>18</span>Surah Al-Kahf</a>
+                </li>
+                <li>
+                    <a id="maryam"><span>19</span>Surah Maryam</a>
+                </li>
+                <li>
+                    <a id="taahaa"><span>20</span>Surah Taa-Haa</a>
+                </li>
+                <li>
+                    <a id="anbiyaa"><span>21</span>Surah Al-Anbiyaa'</a>
+                </li>
+                <li>
+                    <a id="hajj"><span>22</span>Surah Al-Hajj</a>
+                </li>
+                <li>
+                    <a id="muminoon"=""><span>23</span>Surah Al-Mu'minoon</a>
+                </li>
+                <li>
+                    <a id="noor"=""><span>24</span>Surah An-Noor</a>
+                </li>
+                <li>
+                    <a id="furqaan"=""><span>25</span>Surah Al-Furqaan</a>
+                </li>
+                <li>
+                    <a id="shuaraa"=""><span>26</span>Surah Ash-Shu'araa'</a>
+                </li>
+                <li>
+                    <a id="naml"=""><span>27</span>Surah An-Naml</a>
+                </li>
+                <li>
+                    <a id="qasas"=""><span>28</span>Surah Al-Qasas</a>
+                </li>
+                <li>
+                    <a id="ankaboot"=""><span>29</span>Surah Al-'Ankaboot</a>
+                </li>
+                <li>
+                    <a id="room"=""><span>30</span>Surah Ar-Room</a>
+                </li>
+                <li>
+                    <a id="luqmaan"=""><span>31</span>Surah Luqmaan</a>
+                </li>
+                <li>
+                    <a id="sajda"=""><span>32</span>Surah As-Sajda</a>
+                </li>
+                <li>
+                    <a id="ahzaab"=""><span>33</span>Surah Al-Ahzaab</a>
+                </li>
+                <li>
+                    <a id="saba"=""><span>34</span>Surah Saba'</a>
+                </li>
+                <li>
+                    <a id="faatir"=""><span>35</span>Surah Faatir</a>
+                </li>
+                <li>
+                    <a id="yaaseen"=""><span>36</span>Surah Yaa-Seen</a>
+                </li>
+                <li>
+                    <a id="saaffaat"=""><span>37</span>Surah As-Saaffaat</a>
+                </li>
+                <li>
+                    <a id="saad"=""><span>38</span>Surah Saad</a>
+                </li>
+                <li>
+                    <a id="zumar"=""><span>39</span>Surah Az-Zumar</a>
+                </li>
+                <li>
+                    <a id="ghaafir"=""><span>40</span>Surah Ghaafir</a>
+                </li>
+                <li>
+                    <a id="fussilat"=""><span>41</span>Surah Fussilat</a>
+                </li>
+                <li>
+                    <a id="shooraa"=""><span>42</span>Surah Ash-Shooraa</a>
+                </li>
+                <li>
+                    <a id="zukhruf"=""><span>43</span>Surah Az-Zukhruf</a>
+                </li>
+                <li>
+                    <a id="dukhaan"=""><span>44</span>Surah Ad-Dukhaan</a>
+                </li>
+                <li>
+                    <a id="jaathiya"=""><span>45</span>Surah Al-Jaathiya</a>
+                </li>
+                <li>
+                    <a id="ahqaaf"=""><span>46</span>Surah Al-Ahqaaf</a>
+                </li>
+                <li>
+                    <a id="muhammad"=""><span>47</span>Surah Muhammad</a>
+                </li>
+                <li>
+                    <a id="fath"=""><span>48</span>Surah Al-Fath</a>
+                </li>
+                <li>
+                    <a id="hujuraat"=""><span>49</span>Surah Al-Hujuraat</a>
+                </li>
+                <li>
+                    <a id="qaaf"=""><span>50</span>Surah Qaaf</a>
+                </li>
+                <li>
+                    <a id="dhaariyaat"=""><span>51</span>Surah Adh-Dhaariyaat</a>
+                </li>
+                <li>
+                    <a id="toor"=""><span>52</span>Surah At-Toor</a>
+                </li>
+                <li>
+                    <a id="najm"=""><span>53</span>Surah An-Najm</a>
+                </li>
+                <li>
+                    <a id="qamar"=""><span>54</span>Surah Al-Qamar</a>
+                </li>
+                <li>
+                    <a id="rahmaan"=""><span>55</span>Surah Ar-Rahmaan</a>
+                </li>
+                <li>
+                    <a id="waaqia"=""><span>56</span>Surah Al-Waaqi'a</a>
+                </li>
+                <li>
+                    <a id="hadeed"=""><span>57</span>Surah Al-Hadeed</a>
+                </li>
+                <li>
+                    <a id="mujaadila"=""><span>58</span>Surah Al-Mujaadila</a>
+                </li>
+                <li>
+                    <a id="hashr"=""><span>59</span>Surah Al-Hashr</a>
+                </li>
+                <li>
+                    <a id="mumtahana"=""><span>60</span>Surah Al-Mumtahana</a>
+                </li>
+                <li>
+                    <a id="saff"=""><span>61</span>Surah As-Saff</a>
+                </li>
+                <li>
+                    <a id="jumua"=""><span>62</span>Surah Al-Jumu'a</a>
+                </li>
+                <li>
+                    <a id="munaafiqoon"=""><span>63</span>Surah Al-Munaafiqoon</a>
+                </li>
+                <li>
+                    <a id="taghaabun"=""><span>64</span>Surah At-Taghaabun</a>
+                </li>
+                <li>
+                    <a id="talaaq"=""><span>65</span>Surah At-Talaaq</a>
+                </li>
+                <li>
+                    <a id="tahreem"=""><span>66</span>Surah At-Tahreem</a>
+                </li>
+                <li>
+                    <a id="mulk"=""><span>67</span>Surah Al-Mulk</a>
+                </li>
+                <li>
+                    <a id="qalam"=""><span>68</span>Surah Al-Qalam</a>
+                </li>
+                <li>
+                    <a id="haaqqa"=""><span>69</span>Surah Al-Haaqqa</a>
+                </li>
+                <li>
+                    <a id="maaarij"=""><span>70</span>Surah Al-Ma'aarij</a>
+                </li>
+                <li>
+                    <a id="nooh"=""><span>71</span>Surah Nooh</a>
+                </li>
+                <li>
+                    <a id="jinn"=""><span>72</span>Surah Al-Jinn</a>
+                </li>
+                <li>
+                    <a id="muzzammil"=""><span>73</span>Surah Al-Muzzammil</a>
+                </li>
+                <li>
+                    <a id="muddaththir"=""><span>74</span>Surah Al-Muddaththir</a>
+                </li>
+                <li>
+                    <a id="qiyaama"=""><span>75</span>Surah Al-Qiyaama</a>
+                </li>
+                <li>
+                    <a id="insaan"=""><span>76</span>Surah Al-Insaan</a>
+                </li>
+                <li>
+                    <a id="mursalaat"=""><span>77</span>Surah Al-Mursalaat</a>
+                </li>
+                <li>
+                    <a id="naba"=""><span>78</span>Surah An-Naba'</a>
+                </li>
+                <li>
+                    <a id="naaziaat"=""><span>79</span>Surah An-Naazi'aat</a>
+                </li>
+                <li>
+                    <a id="abasa"=""><span>80</span>Surah 'Abasa</a>
+                </li>
+                <li>
+                    <a id="takweer"=""><span>81</span>Surah At-Takweer</a>
+                </li>
+                <li>
+                    <a id="infitaar"=""><span>82</span>Surah Al-Infitaar</a>
+                </li>
+                <li>
+                    <a id="mutaffifeen"><span>83</span>Surah Al-Mutaffifeen</a>
+                </li>
+                <li>
+                    <a id="inshiqaaq"=""><span>84</span>Surah Al-Inshiqaaq</a>
+                </li>
+                <li>
+                    <a id="burooj"=""><span>85</span>Surah Al-Burooj</a>
+                </li>
+                <li>
+                    <a id="taariq"=""><span>86</span>Surah At-Taariq</a>
+                </li>
+                <li>
+                    <a id="alaa"=""><span>87</span>Surah Al-A'laa</a>
+                </li>
+                <li>
+                    <a id="ghaashiya"=""><span>88</span>Surah Al-Ghaashiya</a>
+                </li>
+                <li>
+                    <a id="fajr"=""><span>89</span>Surah Al-Fajr</a>
+                </li>
+                <li>
+                    <a id="balad"=""><span>90</span>Surah Al-Balad</a>
+                </li>
+                <li>
+                    <a id="shams"=""><span>91</span>Surah Ash-Shams</a>
+                </li>
+                <li>
+                    <a id="layl"=""><span>92</span>Surah Al-Layl</a>
+                </li>
+                <li>
+                    <a id="dhuhaa"=""><span>93</span>Surah Ad-Dhuhaa</a>
+                </li>
+                <li>
+                    <a id="sharh"=""><span>94</span>Surah Ash-Sharh</a>
+                </li>
+                <li>
+                    <a id="teen"=""><span>95</span>Surah At-Teen</a>
+                </li>
+                <li>
+                    <a id="alaq"=""><span>96</span>Surah Al-'Alaq</a>
+                </li>
+                <li>
+                    <a id="qadr"=""><span>97</span>Surah Al-Qadr</a>
+                </li>
+                <li>
+                    <a id="bayyina"=""><span>98</span>Surah Al-Bayyina</a>
+                </li>
+                <li>
+                    <a id="zalzala"=""><span>99</span>Surah Az-Zalzala</a>
+                </li>
+                <li>
+                    <a id="aadiyaat"=""><span>100</span>Surah Al-'Aadiyaat</a>
+                </li>
+                <li>
+                    <a id="qaaria"=""><span>101</span>Surah Al-Qaari'a</a>
+                </li>
+                <li>
+                    <a id="takaathur"=""><span>102</span>Surah At-Takaathur</a>
+                </li>
+                <li>
+                    <a id="asr"=""><span>103</span>Surah Al-'Asr</a>
+                </li>
+                <li>
+                    <a id="humaza"=""><span>104</span>Surah Al-Humaza</a>
+                </li>
+                <li>
+                    <a id="feel"=""><span>105</span>Surah Al-Feel</a>
+                </li>
+                <li>
+                    <a id="quraysh"=""><span>106</span>Surah Quraysh</a>
+                </li>
+                <li>
+                    <a id="maaoon"=""><span>107</span>Surah Al-Maa'oon</a>
+                </li>
+                <li>
+                    <a id="kawthar"=""><span>108</span>Surah Al-Kawthar</a>
+                </li>
+                <li>
+                    <a id="kaafiroon"=""><span>109</span>Surah Al-Kaafiroon</a>
+                </li>
+                <li>
+                    <a id="nasr"=""><span>110</span>Surah An-Nasr</a>
+                </li>
+                <li>
+                    <a id="masad"=""><span>111</span>Surah Al-Masad</a>
+                </li>
+                <li>
+                    <a id="ikhlaas"=""><span>112</span>Surah Al-Ikhlaas</a>
+                </li>
+                <li>
+                    <a id="falaq"=""><span>113</span>Surah Al-Falaq</a>
+                </li>
+                <li>
+                    <a id="naas"=""><span>114</span>Surah An-Naas</a>
+                </li>
+            </ul>
+        </nav>
+  </div>
+  
+  
+  <div class="rewaya">
+      <p>Assim <span>></span> Hafs</p> 
+  </div>
+        
+       
+            
+    
+<div class="setting">
+ 
+        <button id="moonl">
+        <img src="../../../misc/night.svg" id="moon"/>
+        </button>
+       
+       <button id="lang">English</button>
+       
+       <div id="lang-content">
+           
+           <ul>
+               <li>
+    <a href="https://quranpage.net/english/assim/hafs/">English</a>
+    </li>
+    <li>
+    <a href="https://quranpage.net/arabic/assim/hafs/">Arabic<span>العربية</span></a>
+    </li>
+    </ul>
+    
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+        
+        x = ("#l", "src", "../../../masahif/hafs/"  x  ".svg");
+        y = x - 1;
+
+
+        $(".previous").click(function() {
+            x -= 2;
+            y -= 2;
+        setImage();
+        });
+        $(".next").click(function() {
+            x += 2;
+            y += 2;
+        setImage();
+        });
+
+        function setImage() {
+            $("#l").attr("src", "../../../masahif/hafs/" + x + ".svg");
+            $("#r").attr("src", "../../../masahif/hafs/" + y + ".svg");
+        }
+
+            $("#faatiha").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/2.svg");
+                $("#r").attr("src", "../../../masahif/hafs/1.svg");
+            });
+            $("#baqara").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/2.svg");
+                $("#r").attr("src", "../../../masahif/hafs/1.svg");
+            });
+            $("#imraan").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/50.svg");
+                $("#r").attr("src", "../../../masahif/hafs/49.svg");
+            });
+            $("#nisaa").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/78.svg");
+                $("#r").attr("src", "../../../masahif/hafs/77.svg");
+            });
+            $("#maaida").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/106.svg");
+                $("#r").attr("src", "../../../masahif/hafs/105.svg");
+            });
+            $("#anaam").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/128.svg");
+                $("#r").attr("src", "../../../masahif/hafs/127.svg");
+            });
+            $("#araaf").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/152.svg");
+                $("#r").attr("src", "../../../masahif/hafs/151.svg");
+            });
+            $("#anfaal").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/178.svg");
+                $("#r").attr("src", "../../../masahif/hafs/177.svg");
+            });
+            $("#tawba").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/188.svg");
+                $("#r").attr("src", "../../../masahif/hafs/187.svg");
+            });
+            $("#yoonus").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/208.svg");
+                $("#r").attr("src", "../../../masahif/hafs/207.svg");
+            });
+            $("#hood").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/222.svg");
+                $("#r").attr("src", "../../../masahif/hafs/221.svg");
+            });
+            $("#yoosuf").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/236.svg");
+                $("#r").attr("src", "../../../masahif/hafs/235.svg");
+            });
+            $("#rad").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/250.svg");
+                $("#r").attr("src", "../../../masahif/hafs/249.svg");
+            });
+            $("#ibraaheem").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/256.svg");
+                $("#r").attr("src", "../../../masahif/hafs/255.svg");
+            });
+            $("#hijr").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/262.svg");
+                $("#r").attr("src", "../../../masahif/hafs/261.svg");
+            });
+            $("#nahl").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/268.svg");
+                $("#r").attr("src", "../../../masahif/hafs/267.svg");
+            });
+            $("#israa").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/282.svg");
+                $("#r").attr("src", "../../../masahif/hafs/281.svg");
+            });
+            $("#kahf").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/294.svg");
+                $("#r").attr("src", "../../../masahif/hafs/293.svg");
+            });
+            $("#maryam").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/306.svg");
+                $("#r").attr("src", "../../../masahif/hafs/305.svg");
+            });
+            $("#taahaa").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/312.svg");
+                $("#r").attr("src", "../../../masahif/hafs/311.svg");
+            });
+            $("#anbiyaa").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/322.svg");
+                $("#r").attr("src", "../../../masahif/hafs/321.svg");
+            });
+            $("#hajj").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/332.svg");
+                $("#r").attr("src", "../../../masahif/hafs/331.svg");
+            });
+            $("#muminoon").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/342.svg");
+                $("#r").attr("src", "../../../masahif/hafs/341.svg");
+            });
+            $("#noor").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/350.svg");
+                $("#r").attr("src", "../../../masahif/hafs/349.svg");
+            });
+            $("#furqaan").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/360.svg");
+                $("#r").attr("src", "../../../masahif/hafs/359.svg");
+            });
+            $("#shuaraa").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/368.svg");
+                $("#r").attr("src", "../../../masahif/hafs/367.svg");
+            });
+            $("#naml").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/378.svg");
+                $("#r").attr("src", "../../../masahif/hafs/377.svg");
+            });
+            $("#qasas").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/386.svg");
+                $("#r").attr("src", "../../../masahif/hafs/385.svg");
+            });
+            $("#ankaboot").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/396.svg");
+                $("#r").attr("src", "../../../masahif/hafs/395.svg");
+            });
+            $("#room").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/404.svg");
+                $("#r").attr("src", "../../../masahif/hafs/403.svg");
+            });
+            $("#luqmaan").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/412.svg");
+                $("#r").attr("src", "../../../masahif/hafs/411.svg");
+            });
+            $("#sajda").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/416.svg");
+                $("#r").attr("src", "../../../masahif/hafs/415.svg");
+            });
+            $("#ahzaab").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/418.svg");
+                $("#r").attr("src", "../../../masahif/hafs/417.svg");
+            });
+            $("#saba").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/428.svg");
+                $("#r").attr("src", "../../../masahif/hafs/427.svg");
+            });
+            $("#faatir").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/434.svg");
+                $("#r").attr("src", "../../../masahif/hafs/433.svg");
+            });
+            $("#yaaseen").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/440.svg");
+                $("#r").attr("src", "../../../masahif/hafs/439.svg");
+            });
+            $("#saaffaat").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/446.svg");
+                $("#r").attr("src", "../../../masahif/hafs/445.svg");
+            });
+            $("#saad").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/454.svg");
+                $("#r").attr("src", "../../../masahif/hafs/453.svg");
+            });
+            $("#zumar").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/458.svg");
+                $("#r").attr("src", "../../../masahif/hafs/457.svg");
+            });
+            $("#ghaafir").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/468.svg");
+                $("#r").attr("src", "../../../masahif/hafs/467.svg");
+            });
+            $("#fussilat").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/478.svg");
+                $("#r").attr("src", "../../../masahif/hafs/477.svg");
+            });
+            $("#shooraa").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/484.svg");
+                $("#r").attr("src", "../../../masahif/hafs/483.svg");
+            });
+            $("#zukhruf").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/490.svg");
+                $("#r").attr("src", "../../../masahif/hafs/489.svg");
+            });
+            $("#dukhaan").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/496.svg");
+                $("#r").attr("src", "../../../masahif/hafs/495.svg");
+            });
+            $("#jaathiya").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/500.svg");
+                $("#r").attr("src", "../../../masahif/hafs/499.svg");
+            });
+            $("#ahqaaf").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/502.svg");
+                $("#r").attr("src", "../../../masahif/hafs/501.svg");
+            });
+            $("#muhammad").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/508.svg");
+                $("#r").attr("src", "../../../masahif/hafs/507.svg");
+            });
+            $("#fath").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/511.svg");
+                $("#r").attr("src", "../../../masahif/hafs/512.svg");
+            });
+            $("#hujuraat").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/516.svg");
+                $("#r").attr("src", "../../../masahif/hafs/515.svg");
+            });
+            $("#qaaf").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/518.svg");
+                $("#r").attr("src", "../../../masahif/hafs/517.svg");
+            });
+            $("#dhaariyaat").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/520.svg");
+                $("#r").attr("src", "../../../masahif/hafs/519.svg");
+            });
+            $("#toor").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/524.svg");
+                $("#r").attr("src", "../../../masahif/hafs/523.svg");
+            });
+            $("#najm").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/526.svg");
+                $("#r").attr("src", "../../../masahif/hafs/525.svg");
+            });
+            $("#qamar").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/528.svg");
+                $("#r").attr("src", "../../../masahif/hafs/527.svg");
+            });
+            $("#rahmaan").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/532.svg");
+                $("#r").attr("src", "../../../masahif/hafs/531.svg");
+            });
+            $("#waaqia").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/534.svg");
+                $("#r").attr("src", "../../../masahif/hafs/533.svg");
+            });
+            $("#hadeed").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/538.svg");
+                $("#r").attr("src", "../../../masahif/hafs/537.svg");
+            });
+            $("#mujaadila").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/542.svg");
+                $("#r").attr("src", "../../../masahif/hafs/541.svg");
+            });
+            $("#hashr").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/546.svg");
+                $("#r").attr("src", "../../../masahif/hafs/545.svg");
+            });
+            $("#mumtahina").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/550.svg");
+                $("#r").attr("src", "../../../masahif/hafs/549.svg");
+            });
+            $("#saff").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/552.svg");
+                $("#r").attr("src", "../../../masahif/hafs/551.svg");
+            });
+            $("#jumua").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/554.svg");
+                $("#r").attr("src", "../../../masahif/hafs/553.svg");
+            });
+            $("#munaafiqoon").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/554.svg");
+                $("#r").attr("src", "../../../masahif/hafs/553.svg");
+            });
+            $("#taghaabun").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/556.svg");
+                $("#r").attr("src", "../../../masahif/hafs/555.svg");
+            });
+            $("#talaaq").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/558.svg");
+                $("#r").attr("src", "../../../masahif/hafs/557.svg");
+            });
+            $("#tahreem").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/560.svg");
+                $("#r").attr("src", "../../../masahif/hafs/559.svg");
+            });
+            $("#mulk").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/562.svg");
+                $("#r").attr("src", "../../../masahif/hafs/561.svg");
+            });
+            $("#qalam").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/564.svg");
+                $("#r").attr("src", "../../../masahif/hafs/563.svg");
+            });
+            $("#haaqqa").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/566.svg");
+                $("#r").attr("src", "../../../masahif/hafs/565.svg");
+            });
+            $("#maaarij").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/568.svg");
+                $("#r").attr("src", "../../../masahif/hafs/567.svg");
+            });
+            $("#nooh").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/570.svg");
+                $("#r").attr("src", "../../../masahif/hafs/569.svg");
+            });
+            $("#jinn").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/572.svg");
+                $("#r").attr("src", "../../../masahif/hafs/571.svg");
+            });
+            $("#muzzammil").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/574.svg");
+                $("#r").attr("src", "../../../masahif/hafs/573.svg");
+            });
+            $("#muddaththir").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/576.svg");
+                $("#r").attr("src", "../../../masahif/hafs/575.svg");
+            });
+            $("#qiyaama").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/578.svg");
+                $("#r").attr("src", "../../../masahif/hafs/577.svg");
+            });
+            $("#insaan").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/578.svg");
+                $("#r").attr("src", "../../../masahif/hafs/577.svg");
+            });
+            $("#mursalaat").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/580.svg");
+                $("#r").attr("src", "../../../masahif/hafs/579.svg");
+            });
+            $("#naba").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/582.svg");
+                $("#r").attr("src", "../../../masahif/hafs/581.svg");
+            });
+            $("#naaziaat").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/584.svg");
+                $("#r").attr("src", "../../../masahif/hafs/583.svg");
+            });
+            $("#abasa").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/586.svg");
+                $("#r").attr("src", "../../../masahif/hafs/585.svg");
+            });
+            $("#takweer").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/586.svg");
+                $("#r").attr("src", "../../../masahif/hafs/585.svg");
+            });
+            $("#infitaar").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/588.svg");
+                $("#r").attr("src", "../../../masahif/hafs/587.svg");
+            });
+            $("#mutaffifeen").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/588.svg");
+                $("#r").attr("src", "../../../masahif/hafs/587.svg");
+            });
+            $("#inshiqaaq").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/590.svg");
+                $("#r").attr("src", "../../../masahif/hafs/589.svg");
+            });
+            $("#burooj").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/588.svg");
+                $("#r").attr("src", "../../../masahif/hafs/587.svg");
+            });
+            $("#taariq").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/592.svg");
+                $("#r").attr("src", "../../../masahif/hafs/591.svg");
+            });
+            $("#alaa").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/592.svg");
+                $("#r").attr("src", "../../../masahif/hafs/591.svg");
+            });
+            $("#ghaashiya").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/592.svg");
+                $("#r").attr("src", "../../../masahif/hafs/591.svg");
+            });
+            $("#fajr").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/594.svg");
+                $("#r").attr("src", "../../../masahif/hafs/593.svg");
+            });
+            $("#balad").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/594.svg");
+                $("#r").attr("src", "../../../masahif/hafs/593.svg");
+            });
+            $("#shams").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/596.svg");
+                $("#r").attr("src", "../../../masahif/hafs/595.svg");
+            });
+            $("#layl").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/596.svg");
+                $("#r").attr("src", "../../../masahif/hafs/595.svg");
+            });
+            $("#dhuhaa").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/596.svg");
+                $("#r").attr("src", "../../../masahif/hafs/595.svg");
+            });
+            $("#sharh").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/596.svg");
+                $("#r").attr("src", "../../../masahif/hafs/595.svg");
+            });
+            $("#teen").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/598.svg");
+                $("#r").attr("src", "../../../masahif/hafs/597.svg");
+            });
+            $("#alaq").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/598.svg");
+                $("#r").attr("src", "../../../masahif/hafs/597.svg");
+            });
+            $("#qadr").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/598.svg");
+                $("#r").attr("src", "../../../masahif/hafs/597.svg");
+            });
+            $("#bayyina").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/598.svg");
+                $("#r").attr("src", "../../../masahif/hafs/597.svg");
+            });
+            $("#zalzala").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/600.svg");
+                $("#r").attr("src", "../../../masahif/hafs/599.svg");
+            });
+            $("#aadiyaat").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/600.svg");
+                $("#r").attr("src", "../../../masahif/hafs/599.svg");
+            });
+            $("#qaaria").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/600.svg");
+                $("#r").attr("src", "../../../masahif/hafs/599.svg");
+            });
+            $("#takaathur").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/600.svg");
+                $("#r").attr("src", "../../../masahif/hafs/599.svg");
+            });
+            $("#asr").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/602.svg");
+                $("#r").attr("src", "../../../masahif/hafs/601.svg");
+            });
+            $("#humaza").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/602.svg");
+                $("#r").attr("src", "../../../masahif/hafs/601.svg");
+            });
+            $("#feel").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/602.svg");
+                $("#r").attr("src", "../../../masahif/hafs/601.svg");
+            });
+            $("#quraysh").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/602.svg");
+                $("#r").attr("src", "../../../masahif/hafs/601.svg");
+            });
+            $("#maaoon").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/602.svg");
+                $("#r").attr("src", "../../../masahif/hafs/601.svg");
+            });
+            $("#kawthar").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/602.svg");
+                $("#r").attr("src", "../../../masahif/hafs/601.svg");
+            });
+            $("#kaafiroon").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/604.svg");
+                $("#r").attr("src", "../../../masahif/hafs/603.svg");
+            });
+            $("#nasr").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/604.svg");
+                $("#r").attr("src", "../../../masahif/hafs/603.svg");
+            });
+            $("#masad").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/604.svg");
+                $("#r").attr("src", "../../../masahif/hafs/603.svg");
+            });
+            $("#ikhlaas").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/604.svg");
+                $("#r").attr("src", "../../../masahif/hafs/603.svg");
+            });
+            $("#falaq").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/604.svg");
+                $("#r").attr("src", "../../../masahif/hafs/603.svg");
+            });
+            $("#naas").click(function(){
+                $("#l").attr("src", "../../../masahif/hafs/604.svg");
+                $("#r").attr("src", "../../../masahif/hafs/603.svg");
+            });
+        });
+    </script>
+</body>
+</html>
